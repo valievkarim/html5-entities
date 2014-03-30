@@ -1,6 +1,6 @@
 
 
-        8-BIT-SPECIAL
+                8-BIT-SPECIAL
 
              33    '!'    &excl;
              34    '"'    &QUOT; &QUOT &quot; &quot
@@ -61,7 +61,7 @@
             247    '÷'    &div; &divide; &divide
 
 
-        NO-SEMICOLON
+                NO-SEMICOLON
 
              34    '"'    &QUOT; &QUOT &quot; &quot
              38    '&'    &AMP; &AMP &amp; &amp
@@ -165,7 +165,7 @@
             255    'ÿ'    &yuml; &yuml
 
 
-        MULTI-8BIT
+                MULTI-8BIT
 
         60+8402    '<⃒'    &nvlt;
         61+8421    '=⃥'    &bne;
@@ -173,7 +173,7 @@
         102+106    'fj'    &fjlig;
 
 
-        MULTI
+                MULTI
 
         60+8402    '<⃒'    &nvlt;
         61+8421    '=⃥'    &bne;
@@ -242,7 +242,7 @@
      11005+8421    '⫽⃥'    &nparsl;
 
 
-        8-BIT
+                8-BIT
 
               9    '	'    &Tab;
              10    '
@@ -379,7 +379,7 @@
             255    'ÿ'    &yuml; &yuml
 
 
-        ALL
+                ALL
 
               9    '	'    &Tab;
              10    '

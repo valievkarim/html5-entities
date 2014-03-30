@@ -24,7 +24,7 @@ with open("data.json", "w") as f:
 def dump(f, title):
     print()
     print()
-    print("        "+title)
+    print(" "*16 + title)
     print()
     for s, v in sorted(entities.items()):
         if any(f(s, ent) for ent in v):
