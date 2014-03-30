@@ -24,12 +24,12 @@ with open("data.json", "w") as f:
 def dump(f, title):
     print()
     print()
-    print("     "+title)
+    print("        "+title)
     print()
     for s, v in sorted(entities.items()):
         if any(f(s, ent) for ent in v):
-            print("%s  :\t'%s'\t%s" % ("+".join(str(ord(c)) for c in s), s, " ".join(v)))
-            print()
+            print("    %s  :\t'%s'\t%s" % ("+".join(str(ord(c)) for c in s), s, " ".join(v)))
+#            print()
 
 
 dump(lambda s, ent: any(ord(c) < 256 and not (c.isalnum() or c.isspace()) for c in s), "8-BIT-SPECIAL")
