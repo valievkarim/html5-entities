@@ -242,6 +242,47 @@
      11005+8421    '⫽⃥'    &nparsl;
 
 
+                ASCII
+
+              9    '	'    &Tab;
+             10    '
+    '    &NewLine;
+             33    '!'    &excl;
+             34    '"'    &QUOT; &QUOT &quot; &quot
+             35    '#'    &num;
+             36    '$'    &dollar;
+             37    '%'    &percnt;
+             38    '&'    &AMP; &AMP &amp; &amp
+             39    '''    &apos;
+             40    '('    &lpar;
+             41    ')'    &rpar;
+             42    '*'    &ast; &midast;
+             43    '+'    &plus;
+             44    ','    &comma;
+             46    '.'    &period;
+             47    '/'    &sol;
+             58    ':'    &colon;
+             59    ';'    &semi;
+             60    '<'    &LT; &LT &lt; &lt
+        60+8402    '<⃒'    &nvlt;
+             61    '='    &equals;
+        61+8421    '=⃥'    &bne;
+             62    '>'    &GT; &GT &gt; &gt
+        62+8402    '>⃒'    &nvgt;
+             63    '?'    &quest;
+             64    '@'    &commat;
+             91    '['    &lbrack; &lsqb;
+             92    '\'    &bsol;
+             93    ']'    &rbrack; &rsqb;
+             94    '^'    &Hat;
+             95    '_'    &UnderBar; &lowbar;
+             96    '`'    &DiacriticalGrave; &grave;
+        102+106    'fj'    &fjlig;
+            123    '{'    &lbrace; &lcub;
+            124    '|'    &VerticalLine; &verbar; &vert;
+            125    '}'    &rbrace; &rcub;
+
+
                 8-BIT
 
               9    '	'    &Tab;
