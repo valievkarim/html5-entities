@@ -420,6 +420,24 @@
             255    'ÿ'    &yuml; &yuml
 
 
+                WHITESPACE
+
+              9    '	'    &Tab;
+             10    '
+    '    &NewLine;
+            160    ' '    &NonBreakingSpace; &nbsp; &nbsp
+           8194    ' '    &ensp;
+           8195    ' '    &emsp;
+           8196    ' '    &emsp13;
+           8197    ' '    &emsp14;
+           8199    ' '    &numsp;
+           8200    ' '    &puncsp;
+           8201    ' '    &ThinSpace; &thinsp;
+           8202    ' '    &VeryThinSpace; &hairsp;
+           8287    ' '    &MediumSpace;
+      8287+8202    '  '    &ThickSpace;
+
+
                 ALL
 
               9    '	'    &Tab;

@@ -37,6 +37,7 @@ dump(lambda s, ent: len(s) > 1 and any(ord(c) < 256 for c in s), "MULTI-8BIT")
 dump(lambda s, ent: len(s) > 1, "MULTI")
 dump(lambda s, ent: any(ord(c) < 128 for c in s), "ASCII")
 dump(lambda s, ent: any(ord(c) < 256 for c in s), "8-BIT")
+dump(lambda s, ent: any(c.isspace() for c in s), "WHITESPACE")
 dump(lambda s, ent: True, "ALL")
 
 
